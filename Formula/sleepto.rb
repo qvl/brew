@@ -3,7 +3,7 @@ class Sleepto < Formula
   homepage "https://qvl.io/sleepto"
   url "https://github.com/qvl/sleepto/releases/download/v1.1/sleepto_Darwin_x86_64.tar.gz"
   version "v1.1"
-  sha256 "ed0b1ed5f6375de7a646f5bed5f5545ceb89abdba839cebadc3fcbbf6868f178"
+  sha256 "303f2b1f5df40137b0bd765539dd9ea94457356ff2d8e239445f911a61462f2b"
 
   def install
     bin.install "sleepto"
