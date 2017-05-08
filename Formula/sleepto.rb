@@ -1,9 +1,9 @@
 class Sleepto < Formula
   desc "Alternative to traditional task schedulers"
   homepage "https://qvl.io/sleepto"
-  url "https://github.com/qvl/sleepto/releases/download/v1.5/sleepto_mac_amd64.tar.gz"
-  version "1.5"
-  sha256 "0a9ea93f9faf11dc38538618880b4803c0a5bf1b6d07fea13742dd964ce64a59"
+  url "https://github.com/qvl/sleepto/releases/download/v1.6/sleepto_1.6_mac_64bit.tar.gz"
+  version "1.6"
+  sha256 "3334ed14b4f20708fea8b9ee91157633e19fbd699f91d3576d7a3180c075c5fe"
 
   def install
     bin.install "sleepto"
