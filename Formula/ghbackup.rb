@@ -1,9 +1,9 @@
 class Ghbackup < Formula
-  desc "Embarrassingly simple Github backup tool"
+  desc "Embarrassingly simple GitHub backup tool"
   homepage "https://qvl.io/ghbackup"
-  url "https://github.com/qvl/ghbackup/releases/download/v1.5/ghbackup_Darwin_x86_64.tar.gz"
-  version "v1.5"
-  sha256 "6686678807f5a98b618df3e6ab67a3e47bb87bc8064e2aac8df1b0c32cbfe216"
+  url "https://github.com/qvl/ghbackup/releases/download/v1.7/ghbackup_mac_amd64.tar.gz"
+  version "1.7"
+  sha256 "f4f0aa81d9efc1dba93a79afe1dec51644bf2400334a0aabf464543d179b282c"
 
   def install
     bin.install "ghbackup"
