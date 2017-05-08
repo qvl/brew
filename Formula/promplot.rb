@@ -1,9 +1,9 @@
 class Promplot < Formula
-  desc ""
-  homepage ""
-  url "https://github.com/qvl/promplot/releases/download/v0.12/promplot_Darwin_x86_64.tar.gz"
-  version "0.12"
-  sha256 "ba395ad0827f4c6e418a5eebe050257d027b635332ca8b94af9236ac25e94d32"
+  desc "Create plots from Prometheus metrics and send them to you"
+  homepage "https://qvl.io/promplot"
+  url "https://github.com/qvl/promplot/releases/download/v0.13/promplot_MacOS_amd64.tar.gz"
+  version "0.13"
+  sha256 "ba3cc76a2147a37b73a07cd3819eac30d0b6695a13b5b636f98c558ee6fa54c4"
 
   def install
     bin.install "promplot"
