@@ -2,24 +2,24 @@
 class Httpsyet < Formula
   desc "Find links you can update to HTTPS"
   homepage "https://qvl.io/httpsyet"
-  version "0.2.0"
+  version "0.2.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/qvl/httpsyet/releases/download/v0.2.0/httpsyet_0.2.0_mac_64bit.tar.gz"
-    sha256 "3c650e70fc5a0dcfebfdabfde208accd2497fed8e2a298b1976998a71854a33b"
+    url "https://github.com/qvl/httpsyet/releases/download/v0.2.1/httpsyet_0.2.1_mac_64bit.tar.gz"
+    sha256 "934966beac932b32722617f5ed5487a307c164760a9b5544278b40a718d5bb63"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/qvl/httpsyet/releases/download/v0.2.0/httpsyet_0.2.0_linux_64bit.tar.gz"
-      sha256 "cb75d8b3d75feb6f4d04a45b3134cd36df90a503be9479d991be295c08e108ec"
+      url "https://github.com/qvl/httpsyet/releases/download/v0.2.1/httpsyet_0.2.1_linux_64bit.tar.gz"
+      sha256 "4be9bdab93f81ebc0e46c1fed06065c6518f1d0d1a697fc01e0376e8a19a9b06"
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/qvl/httpsyet/releases/download/v0.2.0/httpsyet_0.2.0_linux_ARM64.tar.gz"
-        sha256 "fd04517b3b3e10ac104ae394d45c242d7974bc047a4c54cce982a029270783c3"
+        url "https://github.com/qvl/httpsyet/releases/download/v0.2.1/httpsyet_0.2.1_linux_ARM64.tar.gz"
+        sha256 "02523c84595edcefe865d88e101600076b5f7374b875fdf7b768642ad97f39ec"
       else
-        url "https://github.com/qvl/httpsyet/releases/download/v0.2.0/httpsyet_0.2.0_linux_ARM.tar.gz"
-        sha256 "2eefdf303bdf76155c18b39757b6749fd51dfefa1903e314dc4c91873e7f0bcf"
+        url "https://github.com/qvl/httpsyet/releases/download/v0.2.1/httpsyet_0.2.1_linux_ARM.tar.gz"
+        sha256 "0bc71813365b15228cded805cde376d36ff9ef2615e0d8c61d6dc51be359877c"
       end
     end
   end
